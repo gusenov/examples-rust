@@ -1,3 +1,4 @@
 - [Hello, World!](hello_world)
 - [Hello, Cargo!](hello_cargo)
 - [Guessing Game](guessing_game)
+- [Переменные](variables)
