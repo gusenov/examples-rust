@@ -1,1 +1,2 @@
 - [Hello, World!](hello_world)
+- [Hello, Cargo!](hello_cargo)
