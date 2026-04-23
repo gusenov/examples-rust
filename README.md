@@ -3,6 +3,7 @@
 - [Guessing Game](guessing_game)
 - [Переменные](variables)
 - [Типы данных](data_types)
+- [Integer Overflow](integer_overflow)
 - [Invalid Array Element Access](invalid_array_element_access)
 - [Functions](functions)
 - [Комментарии](comments)
