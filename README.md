@@ -3,3 +3,4 @@
 - [Guessing Game](guessing_game)
 - [Переменные](variables)
 - [Functions](functions)
+- [Комментарии](comments)
