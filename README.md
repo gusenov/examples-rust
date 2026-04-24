@@ -8,3 +8,4 @@
 - [Functions](functions)
 - [Комментарии](comments)
 - [Control Flow](control_flow)
+- [Ownership](ownership)
