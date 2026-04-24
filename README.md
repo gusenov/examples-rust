@@ -10,3 +10,4 @@
 - [Control Flow](control_flow)
 - [Ownership](ownership)
 - [References and Borrowing](references-and-borrowing)
+- [The Slice Type](slices)
