@@ -113,6 +113,9 @@ fn main() {
     // Compound Types
     // Compound types can group multiple values into one type. Rust has two primitive compound types: tuples and arrays.
 
+
+
+    
     // The Tuple Type
     // A tuple is a general way of grouping together a number of values with a variety of types into one compound type. 
     // Tuples have a fixed length: Once declared, they cannot grow or shrink in size.
@@ -126,6 +129,13 @@ fn main() {
     // we can use pattern matching to destructure a tuple value
     let (x, y, z) = tup;  // destructuring
     println!("The value of x, y, z is: {x} {y} {z}");
+
+    // The tuple without any values has a special name, unit. 
+    // This value and its corresponding type are both written () and represent an empty value or an empty return type. 
+    // Expressions implicitly return the unit value if they don’t return any other value.
+
+
+
 
     // The Array Type
 

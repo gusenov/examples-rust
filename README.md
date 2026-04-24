@@ -11,3 +11,5 @@
 - [Ownership](ownership)
 - [References and Borrowing](references-and-borrowing)
 - [The Slice Type](slices)
+- [Using Structs to Structure Related Data](structs)
+- [An Example Program Using Structs](rectangles)
