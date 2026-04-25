@@ -16,3 +16,5 @@
 - [Enumerations](enumerations)
 - [The match Control Flow Construct](match_control_flow)
 - [`if let`](if_let)
+- [Backyard](backyard)
+- [Restaurant](restaurant)
