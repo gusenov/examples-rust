@@ -109,7 +109,7 @@ fn main() {
     //
     // Additionally, the u32 annotation in this example program and the comparison with secret_number means Rust will infer that secret_number should be a u32 as well. 
     // So, now the comparison will be between two values of the same type!
-    let guess: u32 = 
+    /*let guess: u32 = 
         //guess.trim()        
         //.parse()        
         // If parse returns an Err Result variant because it couldn’t create a number from the string, the expect call will crash the game and print the message we give it. 
@@ -122,7 +122,17 @@ fn main() {
             Ok(num) => num,
             // The underscore, _, is a catch-all value; in this example, we’re saying we want to match all Err values, no matter what information they have inside them.
             Err(_) => continue,
-        };
+        };*/
+
+    let guess: i32 = match guess.trim().parse() {
+        Ok(num) => num,
+        Err(_) => continue,
+    };
+
+    if guess < 1 || guess > 100 {
+        println!("The secret number will be between 1 and 100.");
+        continue;
+    }
 
     println!("You guessed: {guess}");
 

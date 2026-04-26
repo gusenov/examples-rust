@@ -19,3 +19,4 @@
 - [Backyard](backyard)
 - [Restaurant](restaurant)
 - [Common Collections](collections)
+- [Error Handling](error_handling)
