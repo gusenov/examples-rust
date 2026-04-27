@@ -20,3 +20,6 @@
 - [Restaurant](restaurant)
 - [Common Collections](collections)
 - [Error Handling](error_handling)
+- [Generic Types](generics)
+- [Traits](traits)
+- [Lifetimes](lifetimes)
