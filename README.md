@@ -23,3 +23,4 @@
 - [Generic Types](generics)
 - [Traits](traits)
 - [Lifetimes](lifetimes)
+- [Writing Automated Tests](adder)
