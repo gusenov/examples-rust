@@ -24,3 +24,4 @@
 - [Traits](traits)
 - [Lifetimes](lifetimes)
 - [Writing Automated Tests](adder)
+- [own version of the classic command line search tool `grep` (**g**lobally search a **r**egular **e**xpression and **p**rint)](minigrep)
