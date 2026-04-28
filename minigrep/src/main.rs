@@ -24,7 +24,8 @@ fn main() {
 
     //let config = parse_config(&args);
     //let config = Config::new(&args);
-    let config = Config::build(&args).unwrap_or_else(|err| {
+    //let config = Config::build(&args).unwrap_or_else(|err| {
+    let config = Config::build(env::args()).unwrap_or_else(|err| {        
         //println!("Problem parsing arguments: {err}");
         eprintln!("Problem parsing arguments: {err}");
         process::exit(1);
@@ -78,13 +79,26 @@ impl Config {
         Config { query, file_path, ignore_case }
     }
 
-    fn build(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            return Err("not enough arguments");
-        }
+    //fn build(args: &[String]) -> Result<Config, &'static str> {
+    fn build(mut args: impl Iterator<Item = String>) -> Result<Config, &'static str> {
+        //if args.len() < 3 {
+        //    return Err("not enough arguments");
+        //}
 
-        let query = args[1].clone();
-        let file_path = args[2].clone();
+        args.next();
+
+        //let query = args[1].clone();
+        let query = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a query string"),
+        };
+
+        //let file_path = args[2].clone();
+        let file_path = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a file path"),
+        };
+
         let ignore_case = env::var("IGNORE_CASE").is_ok();
 
         //Ok(Config { query, file_path })
@@ -121,10 +135,10 @@ fn run(config: Config) -> Result<(), Box<dyn Error>> {
 
     //println!("With text:\n{contents}");
 
-    let results = if config.ignore_case {
-        search_case_insensitive(&config.query, &contents)
+    let results : Vec<&str> = if config.ignore_case {
+        search_case_insensitive(&config.query, &contents).collect()
     } else {
-        search(&config.query, &contents)
+        search(&config.query, &contents).collect()
     };
 
     //for line in search(&config.query, &contents) {
