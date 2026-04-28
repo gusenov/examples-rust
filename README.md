@@ -27,3 +27,6 @@
 - [own version of the classic command line search tool `grep` (**g**lobally search a **r**egular **e**xpression and **p**rint)](minigrep)
 - [Closures](closures)
 - [Iterators](iterators)
+- [Making Useful Documentation Comments](my_crate)
+- [Exporting a Convenient Public API](art)
+- [Cargo Workspaces](add)
