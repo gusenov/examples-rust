@@ -32,3 +32,4 @@
 - [Cargo Workspaces](add)
 - [Smart Pointers](smart_pointers)
 - [Reference Cycles](reference_cycles)
+- [Concurrency](concurrency)
