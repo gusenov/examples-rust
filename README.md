@@ -30,3 +30,5 @@
 - [Making Useful Documentation Comments](my_crate)
 - [Exporting a Convenient Public API](art)
 - [Cargo Workspaces](add)
+- [Smart Pointers](smart_pointers)
+- [Reference Cycles](reference_cycles)
