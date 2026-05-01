@@ -1,0 +1,25 @@
+#![allow(unused)]
+
+use std::time::Duration;
+
+// Using trpl::join to await two anonymous futures
+
+fn main() {
+    trpl::block_on(async {
+        let fut1 = async {
+            for i in 1..10 {
+                println!("hi number {i} from the first task!");
+                trpl::sleep(Duration::from_millis(500)).await;
+            }
+        };
+
+        let fut2 = async {
+            for i in 1..5 {
+                println!("hi number {i} from the second task!");
+                trpl::sleep(Duration::from_millis(500)).await;
+            }
+        };
+
+        trpl::join(fut1, fut2).await;
+    });
+}
