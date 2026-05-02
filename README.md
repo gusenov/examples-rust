@@ -48,3 +48,4 @@
    - [Using Trait Objects to Abstract over Shared Behavior](oop/gui)
    - [an example of a blog post struct that has a field to hold its state, which will be a state object from the set “draft,” “review,” or “published.”](oop/state)
    - [Encoding States and Behavior as Types](oop/blog)
+- [Custom `derive` Macros](macro)
