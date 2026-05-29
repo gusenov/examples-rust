@@ -1,0 +1,10 @@
+[package]
+name = "reverse-string"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+unicode-segmentation = "1.13.2"
+
+[features]
+grapheme = []
