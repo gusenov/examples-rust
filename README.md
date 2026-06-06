@@ -1,1 +1,6 @@
-“the book,” [The Rust Programming Language](the_book)
+- “the book,” [The Rust Programming Language](the_book)
+- Ошибки
+   - Unrecoverable
+      - [Механизм `panic!`](errors/panic_mechanism)
+   - Recoverable
+      - [Концепция `Result`](errors/concept_of_result)

@@ -1,0 +1,1 @@
+[Error Handling in Rust: Fundamentals](https://www.carolinemorton.co.uk/blog/rust-error-handling-fundamentals/)
