@@ -9,3 +9,4 @@
          - [Использование `anyhow`](errors/crates/using_anyhow)
       - [`thiserror`](https://crates.io/crates/thiserror) *for when you need callers to handle errors differently*
          - [Использование `thiserror`](errors/crates/using_thiserror)
+      - [Пример `anyhow` и `thiserror`](errors/crates/anyhow_and_thiserror/)
