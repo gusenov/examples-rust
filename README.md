@@ -4,3 +4,8 @@
       - [Механизм `panic!`](errors/panic_mechanism)
    - Recoverable
       - [Концепция `Result`](errors/concept_of_result)
+   - crates
+      - [`anyhow`](https://crates.io/crates/anyhow) *for quick, contextual errors*
+         - [Использование `anyhow`](errors/crates/using_anyhow)
+      - [`thiserror`](https://crates.io/crates/thiserror) *for when you need callers to handle errors differently*
+         - [Использование `thiserror`](errors/crates/using_thiserror)
