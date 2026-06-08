@@ -2,3 +2,4 @@
 - [Reverse String](reverse-string)
 - [Gigasecond](gigasecond)
 - [Clock](clock)
+- [Anagram](anagram)
