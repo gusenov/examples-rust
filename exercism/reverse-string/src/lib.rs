@@ -1,12 +1,29 @@
 use unicode_segmentation::UnicodeSegmentation;
 
 pub fn reverse(input: &str) -> String {
+
+    // let mut result = String::from("");
     // let mut result = String::new();
+    // let mut result = String::with_capacity(input.len());
+
+    // for ch in input.chars() {
+    //     result.insert(0, ch);
+    // }
+
     // for ch in input.chars().rev() {
     //     result.push(ch);
     // }
+
+    // return result;
     // result
 
+    // input.chars().rev().collect::<String>()
+    // input.chars().rev().collect()
+
+    // UnicodeSegmentation::graphemes(input, true).rev().collect::<String>()
+    // UnicodeSegmentation::graphemes(input, true).rev().collect()
+
+    // input.graphemes(true).rev().collect::<String>()
     input.graphemes(true).rev().collect()
 }
 
