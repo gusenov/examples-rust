@@ -1,0 +1,1 @@
+[Display trait](https://doc.rust-lang.org/std/fmt/trait.Display.html)
