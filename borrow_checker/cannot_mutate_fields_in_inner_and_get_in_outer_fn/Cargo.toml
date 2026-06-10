@@ -1,0 +1,6 @@
+[package]
+name = "cannot_mutate_fields_in_inner_and_get_in_outer_fn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
