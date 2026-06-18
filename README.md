@@ -15,3 +15,5 @@
       - [Использование `tracing`](log/crates/using_tracing)
 - Borrow checker
    - [Нельзя изменить поле во вложенном вызове метода, вернуть `mut` ссылку в наружный метод и в наружном методе получить другое поле, потому что `self` удерживается вернувшейся ссылкой](borrow_checker/cannot_mutate_fields_in_inner_and_get_in_outer_fn/)
+- move
+   - [Значение может перемещаться даже из иммутабельной переменной](move/move-field-of-immutable-var)
